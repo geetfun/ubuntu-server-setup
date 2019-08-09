@@ -15,6 +15,8 @@ This is a setup script to automate the setup and provisioning of Ubuntu servers.
 SSH into your server and install git if it is not installed:
 ```bash
 sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade
 sudo apt-get install git
 ```
 
